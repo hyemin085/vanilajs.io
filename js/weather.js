@@ -15,18 +15,18 @@ function  onGeoOK(position){
     ${data.weather[0].main}  ${Math.floor(data.main.temp)}°C`;
     console.log(data.weather)
     if(data.weather[0].main === "Clear") {
-      imgWeather.innerHTML = "<img src='../img/sunny.png'>";
+      imgWeather.innerHTML = "<img src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb6nV4A%2FbtrgMy7uxnW%2FpzD8YOVuAJyXnlvFvjrxi1%2Fimg.png'>";
     }
     else if(data.weather[0].main === "Clouds") {
-      imgWeather.innerHTML = "<img src='../img/cloud.png'>";
+      imgWeather.innerHTML = "<img src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbe56U1%2FbtrgCD3lHNo%2FW3CO4MemZzRAdukKbtakX1%2Fimg.png'>";
     }
     else if(data.weather[0].main === "Snow") {
-      imgWeather.innerHTML = "<img src='../img/snow.png'>";
+      imgWeather.innerHTML = "<img src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmyDOa%2FbtrgCGF7ReK%2Fw3bTyKjQi25mYhqBDRczdK%2Fimg.png'>";
     }
     else if(data.weather[0].main === "Rain") {
-      imgWeather.innerHTML = "<img src='../img/rain.png'>";
+      imgWeather.innerHTML = "<img src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr0Ar4%2FbtrgOtZgwgM%2F8VhOQWm8fUwln7EwFZ78AK%2Fimg.png'>";
     }else{
-      imgWeather.innerHTML = "<img src='../img/cheerup.png'>";
+      imgWeather.innerHTML = "<img src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcCIjh8%2FbtrgB2WE0PC%2Fpn7rWn91Tbs3HdD79HGXIK%2Fimg.png'>";
     }
     city.innerText = data.name
 
