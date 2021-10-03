@@ -6,7 +6,8 @@
 다른날은 항상 행복한 하루가 되도록 무지개 아이콘이 보여집니다.
 
 시간과 날씨는 현재의 날씨와 시간이 제공됩니다. 😀
-localstorage로 저장하여 새로고침을 해도 데이터가 날라가지 않아요.
+localstorage로 저장하여 새로고침을 해도 데이터가 날라가지 않습니다.
+또한 배경도 계속 변해서 새로고침으로 새로운 배경도 만나보세요 😉
 
 ![image](https://user-images.githubusercontent.com/85723134/135764808-9911360d-5706-40ad-8122-6dad0261f295.png)
 ![image](https://user-images.githubusercontent.com/85723134/135764813-8a72b4b1-cd85-4256-be04-c382b35f54fd.png)
